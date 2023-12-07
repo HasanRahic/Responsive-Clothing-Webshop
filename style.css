@@ -37,7 +37,17 @@ div h2{
     padding-top: 10px;
     padding-bottom: 10px;
     margin: auto;
-    color: rgba(255, 255, 255, 0.504);
+    background: rgba(255, 255, 255, 0.452);
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: rgba(0, 0, 0, 0.748);
+    cursor: pointer;
+}
+div h2.current{
+    background: rgba(255, 166, 0, 0.52);
 }
 div.navbar{
     text-align: center;
@@ -45,7 +55,7 @@ div.navbar{
     display: flex;
     margin: 0;
     width: 100%;
-
+    margin-top: 10px;
 }
 form div.website{
     width: 100%;
@@ -59,10 +69,41 @@ div.website{
     margin: 1%;
     margin: auto;
     margin-top: 5%;
-    display: flex;
+    display: block;
 }
 div.website div{
-    width: 450px;
+    width: 85%;
     height: 450px;
-
+}
+div.website div.sales{
+    display: flex;
+}
+div.website div img{
+    margin: 40px;
+    opacity: 0.85;
+    cursor: pointer;
+}
+div.website div div.tekst{
+    display: block;
+    margin-top: 70px;
+    border: 0;
+}
+div.website div.tekst h3{
+    font-size: x-large;
+    font-weight: bold;
+    cursor: pointer;
+}
+div.website div.tekst p{
+    font-style: italic;
+    margin-top: 10px;
+}
+div.website div.tekst h3.klikone{
+    background: orange;
+    width: 45%;
+    text-align: center;
+    border-radius: 30px;
+    padding: 10px;
+}
+div.website div.parfumes{
+    display: flex;
 }
