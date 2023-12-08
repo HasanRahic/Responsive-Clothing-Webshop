@@ -6,10 +6,10 @@
 }
 body{
     background: rgba(43, 49, 47, 0.351);
-    margin-top: 5%;
+    margin-top: 25px;
 }
 body div{
-    width: 92%;
+    width: 1200px;
     margin: auto;
     border: 1px solid grey;
 }
@@ -17,8 +17,7 @@ body div.head{
     margin: 1%;
     width: 90%;
     margin: auto;
-    margin-top: 25px;
-   
+    margin-top: 10px;
 }
 div header{
     width: 100%;
