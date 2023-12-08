@@ -106,3 +106,12 @@ div.website div.tekst h3.klikone{
 div.website div.parfumes{
     display: flex;
 }
+div.website div.season{
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    font-size: x-large;
+}
+div.website div.coats{
+    display: flex;
+}
