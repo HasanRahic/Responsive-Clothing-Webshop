@@ -95,6 +95,7 @@ div.website div.tekst h3{
 div.website div.tekst p{
     font-style: italic;
     margin-top: 10px;
+    padding-left: 10px;
 }
 div.website div.tekst h3.klikone{
     background: orange;
@@ -114,4 +115,22 @@ div.website div.season{
 }
 div.website div.coats{
     display: flex;
+}
+div.website div.slike{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    height: 700px;
+}
+.onetwo{
+    display: block;
+    text-align: center;
+    margin: 0;
+    margin-top: 8%;
+}
+div.website div.slike img{
+    margin: auto;
+}
+.onetwo img{
+    padding-top: 20px;
 }
