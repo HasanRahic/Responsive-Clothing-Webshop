@@ -141,6 +141,7 @@ div.website div.slike img{
     width: 90%;
     height: 200px;
     display: flex;
+    background: radial-gradient(#87878738, #141414bf);
 }
 div.review{
     border: 0;
@@ -181,7 +182,7 @@ div.contact{
 }
 div.contact p, div.contact a{
     text-decoration: none;
-    color: rgba(255, 252, 252, 0.843);
+    color: rgba(255, 252, 252, 0.396);
     text-align: center;
 }
 div.contact p{
