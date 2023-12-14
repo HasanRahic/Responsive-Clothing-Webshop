@@ -138,15 +138,15 @@ div.website div.slike img{
     padding-top: 20px;
 }
 .footer{
-    width: 90%;
+    max-width: 100%;
+    width: 100%;
     height: 200px;
     display: flex;
     background: radial-gradient(#87878738, #141414bf);
 }
 div.review{
     border: 0;
-    margin: 0;
-    padding: 0;
+    padding-left: -10px;
 }
 div.review input {
     display: block;
@@ -177,7 +177,6 @@ div.review button:hover{
 }
 div.contact{
     text-align: center;
-    margin: auto;
     border: 0;
 }
 div.contact p, div.contact a{
