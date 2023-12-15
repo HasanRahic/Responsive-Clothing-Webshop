@@ -12,6 +12,7 @@ body div{
     max-width: 1200px;
     margin: auto;
     border: 1px solid grey;
+    justify-content: center;
 }
 body div.head{
     margin: 1%;
