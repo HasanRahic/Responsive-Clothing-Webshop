@@ -120,7 +120,22 @@ div.cols div.tekst h3.price{
     cursor: default;
     color: rgba(255, 166, 0, 0.52);
 }
-
+.cols img{
+    opacity: 0.9;
+    cursor: pointer;
+}
+.cols p.sale{
+    position: relative;
+    right: 200px;
+    top: 200px;
+    background: rgb(255, 0, 0, 30%);
+    transform: rotate(45deg);
+    padding: 15px;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+}
 
 
 
