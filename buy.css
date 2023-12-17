@@ -62,19 +62,30 @@ form div.website{
     height: 100%;
     color: white;
 }
-.website{
-    width: 90%;
-}
 div.website{
+    width: 90%;
     margin: 1%;
     margin: auto;
     margin-top: 5%;
     display: block;
 }
 div.cols{
-    width: 85%;
+    width: 30%;
     height: 450px;
+    display: flex;
+    float: left;
+    margin: 15px;
+    text-align: center;
 }
+
+
+
+
+
+
+
+
+
 .footer{
     max-width: 100%;
     width: 100%;
