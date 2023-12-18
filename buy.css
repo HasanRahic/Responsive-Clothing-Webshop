@@ -127,7 +127,9 @@ div.cols div.tekst h3.price{
     cursor: default;
     color: rgba(255, 166, 0, 0.52);
 }
-
+div.cols div.tekst p.onerow{
+    margin-bottom: 50px;
+}
 
 
 
