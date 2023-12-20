@@ -62,19 +62,81 @@ form div.website{
     height: 100%;
     color: white;
 }
-.website{
-    width: 90%;
-}
 div.website{
+    width: 90%;
     margin: 1%;
     margin: auto;
     margin-top: 5%;
     display: block;
 }
 div.cols{
-    width: 85%;
+    width: 30%;
     height: 450px;
+    display: flex;
+    float: left;
+    margin: 17.5px;
+    text-align: center;
+    justify-content: center;
 }
+div.cols{
+    display: block;
+}
+div.cols img.head{
+    height: 200px;
+    display: block;
+    opacity: 90%;
+    margin: auto;
+    margin-top: 5px;
+    cursor: pointer;
+}
+div.cols div.tekst{
+    display: block;
+    border: 0;
+}
+div.cols div.tekst p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+div.cols div.tekst h3.buy{
+    background: rgba(255, 255, 255, 0.452);;
+    width: 45%;
+    border-radius: 30px;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+div.cols div.tekst h3.buy:hover{
+    background: rgba(255, 166, 0, 0.52);
+}
+div.cols div.tekst img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: -7px;
+
+}
+
+div.cols div.tekst h3{
+    font-size: x-large;
+    font-weight: bold;
+    cursor: pointer;
+}
+div.cols div.tekst h3.price{
+    padding-left: 10px;
+    cursor: default;
+    color: rgba(255, 166, 0, 0.52);
+}
+div.cols div.tekst p.onerow{
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
 .footer{
     max-width: 100%;
     width: 100%;
