@@ -22,10 +22,10 @@ body div.head{
 }
 div header{
     width: 100%;
-    height: 500px;
+    height: 450px;
 }
 div header img{
-    height: 500px;
+    height: 510px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -141,7 +141,7 @@ div.website div.slike img{
 .footer{
     max-width: 100%;
     width: 100%;
-    height: 200px;
+    height: 100px;
     display: flex;
     background: radial-gradient(#87878738, #141414bf);
 }
@@ -153,15 +153,15 @@ div.review input {
     display: block;
     text-align: left;
     width: 300px;
-    height: 100px;
+    height: 50px;
     border-radius: 15px;
     background: rgba(255, 255, 255, 0.452);
     text-align: center;
     margin-left: 20px;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 div.review button{
-    margin-top: 10px;
+    margin-top: 5px;
     padding: 5px 15px;
     border-radius: 15px;
     text-align: center;
@@ -170,7 +170,6 @@ div.review button{
     font-weight: bold;
     font-size: 15px;
     margin-left: 20px;
-    margin-top: 20px;
 }
 div.review button:hover{
     background: rgba(255, 166, 0, 0.52);
