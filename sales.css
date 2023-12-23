@@ -86,14 +86,17 @@ form div.website{
     color: white;
     margin: 1%;
     margin: auto;
-    margin-top: 5%;
     display: block;
 }
 div.cols{
-    width: 90%;
+    margin-top: 5%;
+    width: 76.5%;
     height: 450px;
     display: flex;
+    border-top: 1px solid white;
 }
+
+
 
 
 
