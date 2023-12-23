@@ -104,6 +104,7 @@ div.website div{
 }
 div.website div.sales{
     display: flex;
+    border-top: 1px solid white;
 }
 div.website div img{
     margin: 40px;
@@ -138,21 +139,29 @@ div.website div.tekst h3.klikone:hover{
 }
 div.website div.parfumes{
     display: flex;
+    border-top: 1px solid white;
 }
 div.website div.season{
     margin: auto;
     text-align: center;
     padding-top: 100px;
     font-size: x-large;
+    border-top: 1px solid white;
 }
 div.website div.coats{
     display: flex;
+    border-top: 1px solid white;
+}
+div.coats div.tekst{
+    
+    margin-left: 10px;
 }
 div.website div.slike{
     display: flex;
     width: 100%;
     margin: auto;
     height: 700px;
+    border-top: 1px solid white;
 }
 .onetwo{
     display: block;
