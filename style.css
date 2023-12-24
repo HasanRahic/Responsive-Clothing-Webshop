@@ -126,6 +126,7 @@ div.website div.tekst p{
     font-style: italic;
     margin-top: 10px;
     padding-left: 10px;
+    cursor: default;
 }
 div.website div.tekst h3.klikone{
     background: rgba(255, 255, 255, 0.452);;
@@ -151,13 +152,13 @@ div.website div.season{
     padding-top: 100px;
     font-size: x-large;
     border-top: 1px solid white;
+    cursor: default;
 }
 div.website div.coats{
     display: flex;
     border-top: 1px solid white;
 }
 div.coats div.tekst{
-    
     margin-left: 10px;
 }
 div.website div.slike{
