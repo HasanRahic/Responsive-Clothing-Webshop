@@ -134,6 +134,10 @@ div.website div.tekst h3.klikone{
     border-radius: 30px;
     padding: 10px;
 }
+div.website div.tekst h3.klikone a{
+    text-decoration: none;
+    color: black;
+}
 div.website div.tekst h3.klikone:hover{
     background: rgba(255, 166, 0, 0.52);
 }
