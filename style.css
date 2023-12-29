@@ -299,10 +299,11 @@ div.socials img{
     div.cart{
         position: -webkit-sticky;
         position: sticky;
-        top: 10px;
+        top: 30px;
         float: right;
         margin-right: 10px;
         margin-top: 420px;
+        padding-top: 15px;
     }
     div.cart img{
         height: 20px;
