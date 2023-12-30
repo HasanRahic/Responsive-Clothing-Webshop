@@ -82,6 +82,9 @@ div.cols img{
     width: 350px;
 }
 div.cols div.tekst{
+    float: right;
+    font-size: large;
+    margin-top: 50px;
 }
 
 
