@@ -76,6 +76,9 @@ div.website div.cols{
     display: block;
     width: 90%;
     height: 100%;
+    border-top: 1px solid white;
+    padding-top: 40px;
+    margin-bottom: 20px;
 }
 
 div.cols img{
@@ -85,9 +88,13 @@ div.cols img{
 div.cols div.tekst{
     float: right;
     font-size: large;
-    margin-top: 50px;
+    margin-top: 30px;
     border-left: 1px solid white;
-    padding-left: 100px;
+    padding-left: 150px;
+    height: 150px;
+}
+div.cols div.tekst p, div.cols div.tekst h3{
+    margin-top: 30px;
 }
 
 
