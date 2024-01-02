@@ -90,6 +90,8 @@ div.website div.cols{
     margin-right: 25px;
     padding-bottom: 10px;
     margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .cart-row {
@@ -98,6 +100,8 @@ div.website div.cols{
 
 .cart-item {
     width: 45%;
+    font-size: 20px;
+    color: #333;
 }
 
 .cart-price {
@@ -108,6 +112,9 @@ div.website div.cols{
 
 .cart-quantity {
     width: 35%;
+    font-size: 20px;
+    color: #333;
+
 }
 
 .cart-item-title {
@@ -137,15 +144,13 @@ div.website div.cols{
     height: 34px;
     width: 50px;
     border-radius: 5px;
-    border: 1px solid #56CCF2;
+    border: 1px solid rgba(255, 166, 0, 0.52);
     background-color: #eee;
     color: #333;
     padding: 0;
     text-align: center;
     font-size: 20px;
-    margin-right: 25px;
     margin-top: 10px;
-    margin: auto;
 }
 
 .cart-row:last-child {
@@ -182,9 +187,11 @@ div.website div.cols{
     background: rgba(255, 255, 255, 0.452);
     padding: 5px 15px;
     border-radius: 20px;
+    color: #333;
 }
 .btn-purchase:hover{
     background: rgba(255, 166, 0, 0.52);
+    color: white
 }
 
 
