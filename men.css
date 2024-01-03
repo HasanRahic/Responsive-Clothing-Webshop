@@ -122,15 +122,14 @@ div.cols img.head{
 div.cols div.tekst{
     display: block;
     border: 0;
+    margin-top: 20px;
 }
-div.cols div.tekst p{
+div.cols div.tekst span{
     font-size: 25px;
     font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 20px;
     color: black;
 }
-div.cols div.tekst h3.buy{
+div.cols div.tekst button.shop-item-button{
     background: rgba(255, 255, 255, 0.452);;
     width: 45%;
     border-radius: 30px;
@@ -139,8 +138,11 @@ div.cols div.tekst h3.buy{
     text-align: center;
     margin-top: 20px;
     color: black;
+    border: 0;
+    font-size: 25px;
+    font-weight: bold;
 }
-div.cols div.tekst h3.buy:hover{
+div.cols div.tekst button.shop-item-button:hover{
     background: rgba(255, 166, 0, 0.52);
 }
 div.cols div.tekst img{
@@ -159,9 +161,7 @@ div.cols div.tekst h3.price{
     padding-left: 10px;
     cursor: default;
     color: rgba(255, 166, 0, 0.52);
-}
-div.cols div.tekst p.onerow{
-    margin-bottom: 50px;
+    margin-top: 30px;
 }
 div div.footer{
     background: 0;
