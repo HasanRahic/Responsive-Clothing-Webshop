@@ -135,9 +135,15 @@ div.website div.cols{
     border: none;
     border-radius: 40px;
     font-weight: bold;
-    padding: 0;
+    padding: 5px 15px;
     margin: 0;
     margin-top: 10px;
+    background-color: #EB5757;
+    color: white;
+}
+.btn-danger:hover{
+    cursor: pointer;
+    background-color: #CC4C4C;
 }
 
 
