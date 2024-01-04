@@ -112,7 +112,8 @@ div.cols{
     display: block;
 }
 div.cols img.head{
-    height: 200px;
+    height: 45%;
+    width: 93%;
     display: block;
     opacity: 90%;
     margin: auto;
