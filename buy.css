@@ -111,7 +111,7 @@ div.cols{
 div.cols{
     display: block;
 }
-div.cols img.head{
+div.cols img.shop-item-img{
     height: 45%;
     width: 93%;
     display: block;
@@ -123,16 +123,21 @@ div.cols img.head{
 div.cols div.tekst{
     display: block;
     border: 0;
+    margin-top: 20px;
 }
-div.cols div.tekst p{
+div.cols div.tekst .shop-item-title{
     font-size: 25px;
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 20px;
     color: black;
 }
-div.cols div.tekst h3.buy{
-    background: rgba(255, 255, 255, 0.452);;
+div.cols div.tekst button.shop-item-button{
+    border: 0;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.452);
     width: 45%;
     border-radius: 30px;
     padding: 20px;
@@ -141,7 +146,7 @@ div.cols div.tekst h3.buy{
     margin-top: 20px;
     color: black;
 }
-div.cols div.tekst h3.buy:hover{
+div.cols div.tekst button.shop-item-button:hover{
     background: rgba(255, 166, 0, 0.52);
 }
 div.cols div.tekst img{
@@ -155,11 +160,14 @@ div.cols div.tekst h3{
     font-size: x-large;
     font-weight: bold;
     cursor: pointer;
+    margin-top: 20px;
 }
 div.cols div.tekst h3.price{
     padding-left: 10px;
     cursor: default;
     color: rgba(255, 166, 0, 0.52);
+    margin-bottom: 10px;
+
 }
 div.cols div.tekst p.onerow{
     margin-bottom: 50px;
