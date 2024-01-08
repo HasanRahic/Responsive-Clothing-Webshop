@@ -101,7 +101,7 @@ div.cart img{
     height: 40px;
     width: 40px;
 }
-div.cols img.pose{
+div.cols img.shop-item-img{
     height: 300px;
     width: 350px;
     margin: 60px;
@@ -109,14 +109,20 @@ div.cols img.pose{
 }
 div.cols div.tekst{
     display: block;
-    margin-top: 70px;
+    margin-top: 50px;
     border: 0;
+}
+div.cols div.tekst span.shop-item-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
 }
 div.cols div.tekst p{
     font-style: italic;
     padding-left: 10px;
 }
-div.cols div.tekst .shop-item-button{
+div.cols div.tekst button.shop-item-button{
     background: rgba(255, 255, 255, 0.452);;
     width: 45%;
     text-align: center;
@@ -127,7 +133,7 @@ div.cols div.tekst .shop-item-button{
     font-size: 25px;
     font-weight: bold;
 }
-div.cols div.tekst h3.buy:hover{
+div.cols div.tekst button.shop-item-button:hover{
     background: rgba(255, 166, 0, 0.52);
 }
 div.cols div.tekst img{
@@ -170,7 +176,6 @@ div.cols div.tekst h3.price{
 
 .cart-column {
     display: flex;
-    align-items: center;
     border-bottom: 1px solid black;
     margin-right: 15px;
     margin-left: 15px;
@@ -178,6 +183,8 @@ div.cols div.tekst h3.price{
     margin-top: 10px;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+    height: 130px;
 }
 
 .cart-row {
@@ -200,7 +207,7 @@ div.cols div.tekst h3.price{
     width: 35%;
     font-size: 20px;
     color: #333;
-
+    align-items: center;
 }
 
 .cart-item-title {
@@ -242,7 +249,6 @@ div.cols div.tekst h3.price{
     padding: 0;
     text-align: center;
     font-size: 20px;
-    margin-top: 10px;
 }
 
 .cart-row:last-child {
