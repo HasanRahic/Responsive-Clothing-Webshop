@@ -145,6 +145,7 @@ div.cols div.tekst button.shop-item-button{
 }
 div.cols div.tekst button.shop-item-button:hover{
     background: rgba(255, 166, 0, 0.52);
+    cursor: pointer;
 }
 div.cols div.tekst img{
     width: 30px;
