@@ -1,11 +1,11 @@
 
 
-var title = document.getElementsByClassName('shop-item-title').value;
-document.getElementsByClassName('shop-item-title')[0].innerText = title;
-var price = document.getElementsByClassName('price').value;
-document.getElementsByClassName('price')[0].innerText = price;
+var title = document.getElementsByClassName('shop-item-title')[0].innerText
+var price = document.getElementsByClassName('price')[0].innerText
+var img = document.getElementsByClassName('shop-item-img')[0].src
 
-document.getElementsByClassName('shop-item-button').addEventListener('click', function(){
+document.addEventListener('click', function(){
     localStorage.setItem("title", title)
-    localStorage.setItem("price", price);
+    localStorage.setItem("price", price)
+    localStorage.setItem("image", img)
 })
