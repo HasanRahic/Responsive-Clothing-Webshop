@@ -71,9 +71,9 @@ function addToCartClicked(event){
     var button = event.target
     var shopItem = button.parentElement
     var ShopItem = button.parentElement.parentElement
-    var title = localStorage.getItem('title')
-    var price = localStorage.getItem('price')
-    var imageSrc = localStorage.getItem('image')
+    var title = shopItem.getElementsByClassName('title')[0].innerText;
+    var price = shopItem.getElementsByClassName('price')[0].innerText;
+    var imageSrc = ShopItem.getElementsByClassName('image')[0].src;
     console.log(title, price, imageSrc)
     addItemToCart(title, price, imageSrc)
     updateCartTotal()
