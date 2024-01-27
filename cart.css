@@ -16,6 +16,7 @@ body div{
     justify-content: center;
 }
 body div.head{
+    border: 0;
     margin: 1%;
     width: 90%;
     margin: auto;
