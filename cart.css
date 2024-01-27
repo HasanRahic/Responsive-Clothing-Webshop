@@ -22,6 +22,7 @@ body div.head{
     margin-top: 10px;
 }
 div header{
+    border: 0;
     width: 100%;
     height: 450px;
 }
