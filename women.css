@@ -163,6 +163,7 @@ div.cols div.tekst p.onerow{
     margin-bottom: 50px;
 }
 
+
 .cart-column {
     display: flex;
     align-items: center;
@@ -485,6 +486,10 @@ div.socials img{
     div.cols div.tekst p.onerow{
         margin-bottom: 50px;
     }
+    div.just-cart{
+        clear: left;
+    }
+    
 
 
 
