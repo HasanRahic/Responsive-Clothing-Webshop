@@ -490,7 +490,9 @@ div.socials img{
     div.cols div.tekst p.onerow{
         margin-bottom: 50px;
     }
-
+    div.just-cart{
+        clear: left;
+    }
 
 
 
@@ -511,7 +513,7 @@ div.socials img{
         display: block;
         padding: 0;
         margin-left: 22%;
-        margin-top: 5850px;
+        margin-top: 100px;
         padding-top: 5px;
     }
     div.footer div.review input{
