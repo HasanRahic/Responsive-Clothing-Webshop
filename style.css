@@ -172,13 +172,10 @@ div.website div.slike{
     display: block;
     text-align: center;
     margin: 0;
-    margin-top: 8%;
+    margin-top: 100px;
 }
 div.website div.slike img{
     margin: auto;
-}
-.onetwo img{
-    padding-top: 20px;
 }
 
 
