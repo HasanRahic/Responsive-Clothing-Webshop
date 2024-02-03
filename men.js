@@ -1,84 +1,79 @@
-if(document.readyState == 'loading'){
-    document.addEventListener('DOMContentLoaded', ready)
-} else{
-    ready()
-}
 let cart = document.querySelectorAll('.shop-item-button')
 
 let products = [
     {
-        title : 'Brown Coat',
+        title: 'Brown Coat',
         tag: 'browncoat',
-        price : 249.99,
+        price: 249.99,
         inCart: 0
     },
     {
-        title : 'Red Shirt with Long Sleeves',
+        title: 'Red Shirt with Long Sleeves',
         tag: 'redshirtlongsleeves',
-        price : 59.99,
+        price: 59.99,
         inCart: 0
     },
     {
-        title : 'White Hoodie',
+        title: 'White Hoodie',
         tag: 'whitehoodie',
-        price : 79.99,
+        price: 79.99,
         inCart: 0
     },
     {
-        title : 'Denim Jacket',
+        title: 'Denim Jacket',
         tag: 'denimjacket',
-        price : 129.99,
+        price: 129.99,
         inCart: 0
     },
     {
-        title : 'Red Zip Up Sweatshirt',
+        title: 'Red Zip Up Sweatshirt',
         tag: 'redsweatshirt',
-        price : 59.99,
+        price: 59.99,
         inCart: 0
     },
     {
-        title : 'Gray Hoodie',
+        title: 'Gray Hoodie',
         tag: 'greyhoodie',
-        price : 79.99,
+        price: 79.99,
         inCart: 0
     },
     {
-        title : 'Black Hoodie',
+        title: 'Black Hoodie',
         tag: 'blackhoodie',
-        price : 79.99,
+        price: 79.99,
         inCart: 0
     },
     {
-        title : 'Dark Blue Jeans',
+        title: 'Dark Blue Jeans',
         tag: 'darkbluejeans',
-        price : 119.99,
+        price: 119.99,
         inCart: 0
     },
     {
-        title : 'Yellow Shorts',
+        title: 'Yellow Shorts',
         tag: 'yellowshorts',
-        price : 69.99,
+        price: 69.99,
         inCart: 0
     },
     {
-        title : 'Bleu de Chanel Eau de Parfeum',
+        title: 'Bleu de Chanel Eau de Parfeum',
         tag: 'bleuchanelparfeum',
-        price : 169.99,
+        price: 169.99,
         inCart: 0
     },
     {
-        title : 'Tom Ford Ombré Leather',
+        title: 'Tom Ford Ombré Leather',
         tag: 'tomfordparfeum',
-        price : 200.00,
+        price: 200.00,
         inCart: 0
     },
     {
-        title : 'Fogg Discover',
+        title: 'Fogg Discover',
         tag: 'foggdiscover',
-        price : 120.00,
+        price: 120.00,
         inCart: 0
     }
-]
+];
 
 
 for (let i = 0; i < cart.length; i++){
@@ -119,8 +114,5 @@ function setItems(product){
     localStorage.setItem("productsInCart", JSON.stringify(cartItems));
 }
 
-function ready(){
-
-}
 
 
