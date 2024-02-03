@@ -83,11 +83,11 @@ let products = [
 
 for (let i = 0; i < cart.length; i++){
     cart[i].addEventListener('click', ()=>{
-        cartNumbers();
+        cartNumbers(products[i]);
     })
 }
 
-function cartNumbers(){
+function cartNumbers(product){
     let productNumbers = localStorage.getItem('cartNumbers');
     productNumbers = parseInt(productNumbers);
     if(productNumbers){
@@ -95,6 +95,28 @@ function cartNumbers(){
     }else{
         localStorage.setItem('cartNumbers', 1)
     }
+    setItems(product);
+}
+
+function setItems(product){
+    let cartItems = localStorage.getItem('productsInCart');
+    cartItems = JSON.parse(cartItems);
+    
+    if(cartItems != null){
+        if(cartItems[product.tag] == undefined){
+            cartItems = {
+                ...cartItems,
+                [product.tag]:product
+            }
+        }
+        cartItems[product.tag].inCart += 1;
+    } else{
+        product.inCart = 1;
+        cartItems = {
+            [product.tag]:product
+        }
+    }
+    localStorage.setItem("productsInCart", JSON.stringify(cartItems));
 }
 
 function ready(){
