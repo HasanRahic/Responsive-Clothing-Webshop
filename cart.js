@@ -18,11 +18,7 @@ function ready(){
         input.addEventListener('change', quantityChanged)
     }
 
-    var addToCartButtons = document.getElementsByClassName('shop-item-button')
-    for(var i = 0; i < addToCartButtons.length; i++){
-        var button = addToCartButtons[i]
-        button.addEventListener('click', addToCartClicked)
-    }
+    addToCartClicked();
 
     document.getElementsByClassName('btn-purchase')[0].addEventListener('click', purchaseClicked)
 }
@@ -67,13 +63,11 @@ function quantityChanged(event){
     updateCartTotal()
 }
 
-function addToCartClicked(event){
-    var button = event.target
-    var shopItem = button.parentElement
-    var ShopItem = button.parentElement.parentElement
-    var title = shopItem.getElementsByClassName('title')[0].innerText;
-    var price = shopItem.getElementsByClassName('price')[0].innerText;
-    var imageSrc = ShopItem.getElementsByClassName('image')[0].src;
+function addToCartClicked(){
+    var title = localStorage.getItem('productsInCart');
+    title = JSON.parse(title);
+    console.log(title);
+    // var imageSrc = ShopItem.getElementsByClassName('image')[0].src;
     console.log(title, price, imageSrc)
     addItemToCart(title, price, imageSrc)
     updateCartTotal()
