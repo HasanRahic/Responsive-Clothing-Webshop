@@ -5,6 +5,8 @@ if(document.readyState == 'loading'){
 }
 
 function ready(){
+    displayCart();
+
     var removeCartItemButtons = document.getElementsByClassName('btn-danger')
     console.log(removeCartItemButtons)
     for(var i = 0; i < removeCartItemButtons.length; i++){
@@ -18,7 +20,6 @@ function ready(){
         input.addEventListener('change', quantityChanged)
     }
 
-    addToCartClicked();
 
     document.getElementsByClassName('btn-purchase')[0].addEventListener('click', purchaseClicked)
 }
@@ -63,15 +64,7 @@ function quantityChanged(event){
     updateCartTotal()
 }
 
-function addToCartClicked(){
-    var title = localStorage.getItem('productsInCart');
-    title = JSON.parse(title);
-    console.log(title);
-    // var imageSrc = ShopItem.getElementsByClassName('image')[0].src;
-    console.log(title, price, imageSrc)
-    addItemToCart(title, price, imageSrc)
-    updateCartTotal()
-}
+
 
 function addItemToCart(title, price, imageSrc) {
     var cartRow = document.createElement('div')
@@ -100,4 +93,7 @@ function addItemToCart(title, price, imageSrc) {
     cartRow.getElementsByClassName('cart-quantity-input')[0].addEventListener('change', quantityChanged)
 }
 
+function displayCart(){
+    let cartItem = localStorage.getItem("")
+}
 
