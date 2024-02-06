@@ -81,7 +81,7 @@ let products = [
     }
 ];
 
-
+displayCart();
 var removeCartItemButtons = document.getElementsByClassName('btn-danger')
 console.log(removeCartItemButtons)
 for(var i = 0; i < removeCartItemButtons.length; i++){
@@ -93,7 +93,6 @@ for(var i = 0; i < quantityInputs.length; i++){
     var input = quantityInputs[i]
     input.addEventListener('change', quantityChanged)
 }
-displayCart();
 document.getElementsByClassName('btn-purchase')[0].addEventListener('click', purchaseClicked)
 
 
@@ -123,7 +122,7 @@ function updateCartTotal(){
         total = total + (price * quantity)
     }
     total = Math.round(total * 100) / 100
-    document.getElementsByClassName('cart-total-price')[0].innerText = '$' + total
+    document.getElementsByClassName('cart-total-price')[0].innerText = '$' + total;
 }
 
 function removeCartItem(event){
@@ -158,6 +157,7 @@ function cartNumbers(product){
         localStorage.setItem('cartNumbers', 1)
     }
     setItems(product);
+    updateCartTotal();
 }
 
 function setItems(product){
@@ -179,6 +179,7 @@ function setItems(product){
         }
     }
     localStorage.setItem("productsInCart", JSON.stringify(cartItems));
+    updateCartTotal();
 }
 function displayCart(){
     let cartItems = localStorage.getItem("productsInCart");
@@ -202,6 +203,7 @@ function displayCart(){
             `
         });
     }
+    updateCartTotal();
 }
 
 
