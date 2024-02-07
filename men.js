@@ -82,6 +82,7 @@ let products = [
 ];
 
 displayCart();
+updateCartTotal();
 var removeCartItemButtons = document.getElementsByClassName('btn-danger')
 console.log(removeCartItemButtons)
 for(var i = 0; i < removeCartItemButtons.length; i++){
@@ -117,11 +118,12 @@ function updateCartTotal(){
         var cartRow = cartRows[i]
         var priceElement = cartRow.getElementsByClassName('cart-price')[0]
         var quantityElement = cartRow.getElementsByClassName('cart-quantity-input')[0]
-        var price = parseFloat(priceElement.innerText.replace('$', ''))
+        var price = parseFloat(priceElement.innerText);
         var quantity = quantityElement.value
         total = total + (price * quantity)
     }
     total = Math.round(total * 100) / 100
+    console.log(total)
     document.getElementsByClassName('cart-total-price')[0].innerText = '$' + total;
 }
 
@@ -138,7 +140,6 @@ function quantityChanged(event){
     }
     updateCartTotal()
 }
-
 
 
 
@@ -194,7 +195,7 @@ function displayCart(){
                     <img class="cart-item-image" src="photos/${el.tag}.jpeg" width="100" height="100">
                     <span class="cart-item-title">${el.title}</span>
                 </div>
-                <span class="cart-price cart-column">$${el.price}</span>
+                <span class="cart-price">$${el.price}</span>
                 <div class="cart-quantity cart-column">
                     <input class="cart-quantity-input" type="number" value="1">
                     <button class="btn btn-danger" type="button">REMOVE</button>
