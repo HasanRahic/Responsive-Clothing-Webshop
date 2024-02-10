@@ -81,8 +81,11 @@ let products = [
     }
 ];
 
-displayCart();
-updateCartTotal();
+let cartItemsInCart = localStorage.getItem("productsInCart");
+if(cartItemsInCart){
+    displayCart();
+    updateCartTotal();
+}
 var removeCartItemButtons = document.getElementsByClassName('btn-danger')
 console.log(removeCartItemButtons)
 for(var i = 0; i < removeCartItemButtons.length; i++){
@@ -170,7 +173,6 @@ function setItems(product){
 function displayCart(){
     var cartRow = document.createElement('div')
     cartRow.classList.add('cart-row')
-    var cartItms = document.getElementsByClassName('cart-items')[0]
     let cartItems = localStorage.getItem("productsInCart");
     cartItems = JSON.parse(cartItems);
     let productContainer = document.querySelector(".cart-items");
@@ -188,23 +190,17 @@ function displayCart(){
                     <input class="cart-quantity-input" type="number" value="1">
                     <button class="btn btn-danger" type="button">REMOVE</button>
                 </div>
-            </div>    
+            </div>
             `
-            
         });
     }
-    cartRow = productContainer
-    cartItms.append(cartRow)
-    cartRow.getElementsByClassName('btn-danger')[0].addEventListener('click', removeCartItem)
-    cartRow.getElementsByClassName('cart-quantity-input')[0].addEventListener('change', quantityChanged)
-    updateCartTotal();
 }
 
 
 
 function updateCartTotal() {
     var cartItemContainer = document.getElementsByClassName('cart-items')[0]
-    var cartRows = cartItemContainer.getElementsByClassName('cart-row')
+    var cartRows = cartItemContainer.getElementsByClassName('cartitems')
     var total = 0
     for (var i = 0; i < cartRows.length; i++) {
         var cartRow = cartRows[i]
