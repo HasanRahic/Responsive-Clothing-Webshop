@@ -1,12 +1,11 @@
-let cart = document.querySelectorAll('.shop-item-button')
+let cart4 = document.querySelectorAll('.shop-item-button')
 if(document.readyState == 'loading'){
     document.addEventListener('DOMContentLoaded', ready)
 }else{
     ready();
 }
 function ready(){}
-
-let products = [
+let productsMen= [
     {
         title: 'Brown Coat',
         tag: 'pexels-photo-1183266',
@@ -28,7 +27,7 @@ let products = [
     {
         title: 'Denim Jacket',
         tag: 'pexels-photo-2774163',
-        price: 129.99,
+        price: 149.99,
         inCart: 0
     },
     {
@@ -79,10 +78,10 @@ let products = [
         price: 120.00,
         inCart: 0
     }
-];
+]
 
-let cartItemsInCart = localStorage.getItem("productsInCart");
-if(cartItemsInCart){
+let cartItemsInCartBuy = localStorage.getItem("productsInCart");
+if(cartItemsInCartBuy){
     displayCart();
     updateCartTotal();
 }
@@ -130,9 +129,9 @@ function quantityChanged(event){
 
 
 
-for (let i = 0; i < cart.length; i++){
-    cart[i].addEventListener('click', ()=>{
-        cartNumbers(products[i]);
+for (let i = 0; i < cart2.length; i++){
+    cart2[i].addEventListener('click', ()=>{
+        cartNumbers(productsBuy[i]);
     })
 }
 
