@@ -296,7 +296,9 @@ div div.footer{
     background: 0;
     height: 10px;
 }
-
+.hide {
+    display: none;
+}
 
 
 
@@ -496,7 +498,9 @@ div.footer div.socials img{
     div.just-cart{
         clear: left;
     }
-
+    .hide {
+        display: none;
+    }
 
 
 

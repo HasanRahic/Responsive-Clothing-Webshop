@@ -74,6 +74,7 @@ div.cols{
     height: 450px;
     display: flex;
     border-top: 1px solid white;
+    margin-bottom: 5%;
 }
 
 
@@ -292,7 +293,9 @@ div.cols div.tekst h3.price{
     background: rgba(255, 166, 0, 0.52);
     color: white
 }
-
+.hide {
+    display: none;
+}
 
 
 
@@ -452,6 +455,9 @@ div.socials img{
     }
     div.just-cart{
         clear: left;
+    }
+    .hide {
+        display: none;
     }
 
 

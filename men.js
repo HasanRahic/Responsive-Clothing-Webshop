@@ -1,4 +1,4 @@
-let cart4 = document.querySelectorAll('.shop-item-button')
+let cart2 = document.querySelectorAll('.shop-item-button')
 if(document.readyState == 'loading'){
     document.addEventListener('DOMContentLoaded', ready)
 }else{
