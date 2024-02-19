@@ -408,6 +408,10 @@ div.footer div.socials img{
         padding-bottom: 10px;
     }
 
+    body div.main{
+        height: 4000px;
+        width: 615px;
+    }
 
 
 
@@ -520,7 +524,7 @@ div.footer div.socials img{
         display: block;
         padding: 0;
         margin-left: 22%;
-        margin-top: 100px;
+        margin-top: 7250px;
         padding-top: 5px;
     }
     div.footer div.review input{
