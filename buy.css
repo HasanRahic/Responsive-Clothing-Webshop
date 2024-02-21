@@ -418,7 +418,7 @@ div.footer div.socials img{
 
     body div.main{
         height: 6885px;
-        width: 615px;
+        width: 100%;
     }
 
 
@@ -427,9 +427,9 @@ div.footer div.socials img{
     div.cart{
         position: -webkit-sticky;
         position: sticky;
-        top: 50px;
+        top: 30px;
         float: right;
-        margin-right: 40px;
+        margin-right: 5px;
         margin-top: 400px;
     }
     div.cart img{
@@ -446,10 +446,10 @@ div.footer div.socials img{
         margin: auto;
     }
     div.cols{
-        width: 55%;
+        width: 75%;
         display: block;
         margin: 1%;
-        margin-left: 22%;
+        margin-left: 15%;
     }
     div.cols{
         display: block;
@@ -524,7 +524,7 @@ div.footer div.socials img{
         width: 100%;
         height: 3.5%;
         display: block;
-        margin-left: 22%;
+        margin: auto;
     }
     body div.footer div.review{
         display: block;
