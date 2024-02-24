@@ -368,9 +368,11 @@ div.socials img{
 
 @media screen and (max-width:800px) {
     body{
-        margin-top: 15px;
+        max-width: 800px;
+        margin: auto;
+        justify-content: center;
     }
-    body div{
+    body div.main{
         max-width: 800px;
         margin: auto;
         justify-content: center;
@@ -380,21 +382,25 @@ div.socials img{
         width: 90%;
         margin: auto;
         margin-top: 10px;
+        margin-left: 5%;
     }
     div header{
-        width: 100%;
-        height: 250px;
+        width: 90%;
+        height: 60%;
     }
     div header img{
-        height: 310px;
+        height: 60%;
         width: 100%;
+        margin-left: 5%;
     }
     
     ul.navbar li{
         display: block;
-        float: left;
-        text-align: left;
         margin: auto;
+        font-size: 10px;
+        width: 50px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
     ul.navbar{
         text-align: center;
@@ -402,6 +408,13 @@ div.socials img{
         display: flex;
         margin-top: 10px;
         padding-bottom: 10px;
+        width: 90%;
+        margin: auto;
+    }
+
+    body div.main{
+        height: 6000px;
+        width: 100%;
     }
 
 
@@ -426,11 +439,11 @@ div.socials img{
         display: block;
         height: 900px;
     }
-    div.cols img.pose{
+    div.cols img.shop-item-img{
         display: block;
         margin: auto;
         margin-top: 20px;
-        width: 250px;
+        width: 90%;
         margin-bottom: 10px;
     }
     div.cols div.tekst{

@@ -1,4 +1,4 @@
-let cart2 = document.querySelectorAll('.shop-item-button')
+let cart4 = document.querySelectorAll('.shop-item-button')
 if(document.readyState == 'loading'){
     document.addEventListener('DOMContentLoaded', ready)
 }else{
@@ -80,8 +80,8 @@ let productsMen= [
     }
 ]
 
-let cartItemsInCartBuy = localStorage.getItem("productsInCart");
-if(cartItemsInCartBuy){
+let cartItemsInCartMen = localStorage.getItem("productsInCart");
+if(cartItemsInCartMen){
     displayCart();
     updateCartTotal();
 }
@@ -129,9 +129,9 @@ function quantityChanged(event){
 
 
 
-for (let i = 0; i < cart2.length; i++){
-    cart2[i].addEventListener('click', ()=>{
-        cartNumbers(productsBuy[i]);
+for (let i = 0; i < cart4.length; i++){
+    cart4[i].addEventListener('click', ()=>{
+        cartNumbers(productsMen[i]);
     })
 }
 
