@@ -12,7 +12,6 @@ body{
 body div{
     max-width: 1200px;
     margin: auto;
-    border: 0;
     justify-content: center;
 }
 body div.head{
@@ -169,9 +168,6 @@ div.cols div.tekst h3.price{
     color: rgba(255, 166, 0, 0.52);
     margin-bottom: 10px;
 
-}
-div.cols div.tekst p.onerow{
-    margin-bottom: 50px;
 }
 
 .cart-column {

@@ -7,23 +7,19 @@
 body{
     background: linear-gradient(135deg, #00000091, #484a4a55);
     margin-top: 25px;
-    border: 0;
 }
 body div{
     max-width: 1200px;
     margin: auto;
-    border: 0;
     justify-content: center;
 }
 body div.head{
-    border: 0;
     margin: 1%;
     width: 90%;
     margin: auto;
     margin-top: 10px;
 }
 div header{
-    border: 0;
     width: 100%;
     height: 450px;
 }
@@ -74,7 +70,7 @@ div.website{
     display: block;
     min-height: 500px;
 }
-div.website div.cols{
+div.cols{
     display: block;
     width: 90%;
     height: 100%;
@@ -229,9 +225,6 @@ div.website div.cols{
 
 
 
-div.cols{
-    display: block;
-}
 div.cols img.shop-item-img{
     height: 45%;
     width: 93%;
