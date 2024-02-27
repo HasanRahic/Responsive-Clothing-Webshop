@@ -128,7 +128,7 @@ div.website div.tekst h3.klikone{
     width: 45%;
     text-align: center;
     border-radius: 30px;
-    padding: 10px;
+    padding: 5px 15px;
 }
 div.website div.tekst h3.klikone a{
     text-decoration: none;
@@ -246,12 +246,14 @@ div.socials img{
 @media screen and (max-width:800px) {
     
     body{
-        max-width: 800px;
+        max-width: 900px;
+        min-width: 300px;
         margin: auto;
         justify-content: center;
     }
     body div.main{
-        max-width: 800px;
+        max-width: 900px;
+        min-width: 300px;
         margin: auto;
         justify-content: center;
     }
@@ -291,7 +293,7 @@ div.socials img{
     }
 
     body div.main{
-        height: 4850px;
+        height: 5250px;
         width: 100%;
     }
 
@@ -324,15 +326,18 @@ div.socials img{
     }
     div.website div.sales{
         display: block;
-        height: 750px;
+        height: 810px;
+        width: 70%;
     }
     div.website div.sales img{
         width: 85%;
-        height: 30%;
+        height: 20%;
         margin-left: 25px;
     }
     div.website div.sales div.tekst{
         margin-top: 40px;
+        width: 90%;
+        justify-content: center;
     }
     div.website div img{
         margin: 20px 40px;
@@ -345,7 +350,7 @@ div.socials img{
     }
     div.website div.coats{
         display: block;
-        height: 750px;
+        height: 810px;
     }
     div.website div.coats img{
         width: 85%;
@@ -354,15 +359,19 @@ div.socials img{
     }
     div.coats div.tekst{
         margin-left: 10px;
-        margin-top: 10px;
-        height: 400px;
+        margin-top: 20px;
     }
     div.website div.season{
         margin: auto;
-        height: 550px;
+        height: 800px;
         padding-top: 3%;
+        display: flex;
+        justify-content: center;
     }
-    
+    div.website div.season p{
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
     div.website div.parfumes{
         display: block;
         height: 750px;
@@ -371,6 +380,14 @@ div.socials img{
         width: 85%;
         height: 30%;
         margin-left: 25px;
+    }
+    div.website div.parfumes div.tekst h3.klikone{
+        padding: 5px 30px;
+        width: 160px;
+        margin: auto;
+    }
+    div.website div.parfumes div.tekst h3.klikone a{ 
+        width: 35px;
     }
     div.website div.slike{
         display: block;
@@ -381,6 +398,7 @@ div.socials img{
         display: block;
         margin: auto;
         margin-top: 20px;
+        width: 90%;
     }
     div.website div.slike div.onetwo{
         height: 550px;
@@ -426,7 +444,7 @@ div.socials img{
     div.socials img{
         width: 45px;
         height: 45px;
-        margin-right: 10%;
-        margin-left: 10%;
+        margin-right: 7%;
+        margin-left: 7%;
     }
 }
